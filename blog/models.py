@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 from django.urls import reverse
+import markdown
+# 切词
+from django.utils.html import strip_tags
 
 
 # Create your models here.
@@ -92,8 +95,17 @@ class Article(models.Model):
 
     def save(self, *args, **kwargs):
         self.modified_time = timezone.now()
+        # 返回摘要 截取文章的前面几个字
+        md = markdown.Markdown(
+            extensions=[
+                'markdown.extensions.extra',
+                'markdown.extensions.codehilite',
+                'markdown.extensions.toc',
+            ])
+        # 截取文章的前54个字符给摘要
+        self.excerpt = strip_tags(md.convert(self.body))
+
         super().save(*args, **kwargs)
 
     def get_absolute_url(self):
         return reverse('blog:detail', kwargs={'pk': self.pk})
-
