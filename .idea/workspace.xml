@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac5f8bc-7661-466d-a764-9882b6d220eb" name="Default Changelist" comment="详情页面增加markdown 解析">
-      <change afterPath="$PROJECT_DIR$/blog/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templatetags/blog_extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_archives.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_recent_posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_tags.html" afterDir="false" />
+    <list default="true" id="dac5f8bc-7661-466d-a764-9882b6d220eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -44,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -116,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/blogproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -125,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -185,16 +172,6 @@
           <expand>
             <path>
               <item name="blogproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogproject" type="462c0819:PsiDirectoryNode" />
               <item name="blogproject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -298,7 +275,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573273276028</updated>
       <workItem from="1573273277161" duration="19450000" />
-      <workItem from="1573300261114" duration="11980000" />
+      <workItem from="1573300261114" duration="13720000" />
     </task>
     <task id="LOCAL-00001" summary="详情页面增加markdown 解析">
       <created>1573301675718</created>
@@ -342,11 +319,74 @@
       <option name="project" value="LOCAL" />
       <updated>1573303097463</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完善首页的标签 分类 归档 词云等">
+      <created>1573312527731</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573312527731</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完善首页的标签 分类 归档 词云等">
+      <created>1573312588171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573312588171</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update 完善评论功能 评论列表展示">
+      <created>1573386166289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386166289</updated>
+    </task>
+    <task id="LOCAL-00010" summary="这个是blog的supvisor的配置">
+      <created>1573386230888</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386230888</updated>
+    </task>
+    <task id="LOCAL-00011" summary="blog 的nginx配置">
+      <created>1573386259415</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386259415</updated>
+    </task>
+    <task id="LOCAL-00012" summary="blog 的gunicorn配置">
+      <created>1573386275972</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386275972</updated>
+    </task>
+    <task id="LOCAL-00013" summary="添加所有的依赖">
+      <created>1573386294961</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386294961</updated>
+    </task>
+    <task id="LOCAL-00014" summary="supervisor全局配置">
+      <created>1573386320456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386320456</updated>
+    </task>
+    <task id="LOCAL-00015" summary="静态文件">
+      <created>1573386357356</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573386357356</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11980000" />
+    <option name="totallyTimeSpent" value="13720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -363,7 +403,7 @@
       <window_info anchor="bottom" id="File Transfer" weight="0.35654595" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36768803" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35376045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,7 +429,15 @@
     <MESSAGE value="修复post.body" />
     <MESSAGE value="增加渲染时候加过滤器safe将html标签渲染出来" />
     <MESSAGE value="增加代码高亮" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加代码高亮" />
+    <MESSAGE value="完善首页的标签 分类 归档 词云等" />
+    <MESSAGE value="update 完善评论功能 评论列表展示" />
+    <MESSAGE value="这个是blog的supvisor的配置" />
+    <MESSAGE value="blog 的nginx配置" />
+    <MESSAGE value="blog 的gunicorn配置" />
+    <MESSAGE value="添加所有的依赖" />
+    <MESSAGE value="supervisor全局配置" />
+    <MESSAGE value="静态文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blogproject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1573310187401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -429,7 +477,7 @@
     <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -453,7 +501,7 @@
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -463,7 +511,7 @@
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -504,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/blogproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
