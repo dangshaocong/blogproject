@@ -17,6 +17,7 @@ from django.utils.text import slugify
 
 def index(request):
     post_list = Article.objects.all()
+    print(post_list)
     return render(request, 'blog/index.html', context={"post_list": post_list
                                                        })
 
